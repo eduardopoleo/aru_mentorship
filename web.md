@@ -26,12 +26,16 @@ A good way to visualize how a http response work is by using curl along with the
 
 `curl https://catfact.ninja/fact -v`
 
-This will print out all the headers and additional information for both request and response. HTTP is a very versatile protocol that can be used to send many different type of files some of them include:
+This will print out all the headers and additional information for both request and response. You can also obtain the curl equivalent of any requests that happens on your browser by clicking the "Copy as cURL" option. Then you can add the -v option and it'll give you a lot more info on about the request. This is super helpful to when debugging production issues.
+
+<img title="a title" alt="Alt text" src="/copy_as_curl.png">
+
+ HTTP is a very versatile protocol that can be used to send many different type of files some of them include:
   - Documents: html, xml etc
   - Static files: JS, CSS
   - Media: images and videos maybe?
 
-You can clearly see this by opening a web inspector after loading almost any page in the internet.
+Once more you can verify this by opening a web inspector after loading almost any page in the internet.
 
 <img title="a title" alt="Alt text" src="/http_requests.png">
 
